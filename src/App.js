@@ -1,6 +1,7 @@
 import react, { useEffect, useState } from "react";
 import useIterator from "./useIterator";
 import Homepage from "./Components/Homepage";
+import Aboutpage from "./Components/Aboutpage";
 
 function App() {
   const [time, setTime] = useState("");
@@ -55,6 +56,7 @@ useEffect(()=>{
   return (
     <div className="App">
       <Homepage/>
+      <Aboutpage/>
       <div>
         <input
           type="text"
